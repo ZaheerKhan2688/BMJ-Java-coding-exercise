@@ -1,0 +1,10 @@
+INSERT INTO course (id, title) VALUES (1,'5.00,Introduction to mechanical ventilation');
+INSERT INTO course (id, title) VALUES (2,'3.5,Introduction to coronavirus disease 2019 (COVID-19)');
+INSERT INTO course (id, title) VALUES (3,'2.00,Clinical pointers: COVID-19 in primary care');
+INSERT INTO course (id, title) VALUES (4,'1,Clinical pointers: remote consultations in primary care');
+INSERT INTO course (id, title) VALUES (5,'Quick tips: introduction to asthma');
+INSERT INTO course (id, title) VALUES (6,'10.25,Infection control - including basic personal protective equipment');
+INSERT INTO course (id, title) VALUES (7,'7.50,Introduction to testing for COVID-19');
+INSERT INTO course (id, title) VALUES (8,'2.00,Airways management: tracheal intubation');
+INSERT INTO course (id, title) VALUES (9,'2.50,Quick tips: proning in critical care');
+INSERT INTO course (id, title) VALUES (10,'3.0,Quick tips: introduction to asthma');
