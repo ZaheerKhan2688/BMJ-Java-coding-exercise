@@ -20,13 +20,14 @@ public class CourseServiceImpl implements CourseService {
 	public List<CourseDto> searchData(String searchTerm) {
 		
 		List<CourseData> courseData = this.courseRepo.findByTitleContainingIgnoreCase(searchTerm);
-		List<CourseDto> courseDto = courseData.stream().map((course)->this.convertDatatoDto(course)).collect(Collectors.toList());
+		List<CourseDto> courseDto = courseData.stream().map((course) -> this.convertDatatoDto(course)).collect(Collectors.toList());
 		
 		return courseDto;
 	}
 	
 	private CourseDto convertDatatoDto(CourseData coursedata) {
 		CourseDto courseDto = new CourseDto();
+		
 		courseDto.setId(coursedata.getId());
 		courseDto.setTitle(coursedata.getTitle());
 		

@@ -11,8 +11,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @Setter
 @Getter
-public class CouseRecordDto {
-	private double sumOfHours;
+public class CourseRecordDto {
+	
+	double sumOfHours;
 	
 	List<CourseDto> courses;
 }
