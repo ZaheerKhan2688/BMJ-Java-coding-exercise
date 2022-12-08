@@ -58,7 +58,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<filename>springboot-images-bmj</filename>
+		<finalName>springboot-images-bmj</finalName>
 	</build>
 	
 </project>
